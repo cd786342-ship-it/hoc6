@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Học tập lớp 6</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+  <h1>📘 HỌC TẬP LỚP 6</h1>
+  <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+</header>
+
+<section class="hero">
+  <h2>Học thông minh – Điểm cao mỗi ngày</h2>
+  <p>Toán • Văn • Anh • Tin</p>
+  <div class="login">
+    <input id="name" placeholder="Nhập tên học sinh">
+    <button onclick="login()">Bắt đầu học</button>
+  </div>
+</section>
+
+<section class="subjects">
+  <a href="toan.html" class="card toan">📐 Toán</a>
+  <a href="van.html" class="card van">📖 Văn</a>
+  <a href="anh.html" class="card anh">🌍 Anh</a>
+  <a href="tin.html" class="card tin">💻 Tin</a>
+</section>
+
+<section class="leaderboard">
+  <h3>🏆 Bảng xếp hạng</h3>
+  <ul id="leader"></ul>
+</section>
+</div>
+</body>
+</html>
